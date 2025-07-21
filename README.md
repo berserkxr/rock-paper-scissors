@@ -3,7 +3,6 @@
 A simple Rock-Paper-Scissors game built with HTML, CSS, and JavaScript.  
 Play against the computer and test your luck!
 
-![Screenshot](screenshot.png) <!-- Replace or remove if you don't have one -->
 
 ---
 
