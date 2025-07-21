@@ -1,83 +1,96 @@
+# Rock Paper Scissors 🎮
 
-````
-# 🎵 Bosilegrad Music Bot
+A simple Rock-Paper-Scissors game built with HTML, CSS, and JavaScript.  
+Play against the computer and test your luck!
 
-A simple Discord music bot built in Python that lets users play music in voice channels using YouTube links.
-
-## 🚀 Features
-
-- Join and leave voice channels
-- Play music from YouTube URLs
-- Pause, resume, and stop playback
-- Queue and skip songs
-- Built with `discord.py`, `youtube_dl`, and `FFmpeg`
-
-## 🛠️ Requirements
-
-Make sure you have the following installed:
-
-- Python 3.8 or newer
-- [FFmpeg](https://ffmpeg.org/download.html)
-- Required Python packages (install with pip):
-
-```bash
-pip install -r requirements.txt
-````
-
-## 📁 Setup
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/berserkxr/DiscordMusicBot.git
-cd DiscordMusicBot/BosilegradMusicbot
-```
-
-2. **Add your bot token**
-   Create a `.env` file and paste your token:
-
-```
-TOKEN=your_discord_bot_token
-```
-
-3. **Run the bot**
-
-```bash
-python bot.py
-```
-
-Make sure `FFmpeg` is installed and added to your system path.
-
-## 🎧 Commands
-
-Here are some basic commands the bot supports (may vary depending on your code):
-
-| Command       | Description                      |
-| ------------- | -------------------------------- |
-| `!join`       | Joins your current voice channel |
-| `!play <url>` | Plays audio from a YouTube link  |
-| `!pause`      | Pauses current track             |
-| `!resume`     | Resumes paused track             |
-| `!skip`       | Skips to the next track          |
-| `!stop`       | Stops music and clears the queue |
-| `!leave`      | Leaves the voice channel         |
-
-> You can customize the command prefix and add more features as you like.
-
-## 🧠 Tech Stack
-
-* Python
-* [discord.py](https://discordpy.readthedocs.io/en/stable/)
-* [youtube\_dl](https://github.com/ytdl-org/youtube-dl)
-* FFmpeg
-
-## 📜 License
-
-MIT License
+![Screenshot](screenshot.png) <!-- Replace or remove if you don't have one -->
 
 ---
 
-Made by [@berserkxr](https://github.com/berserkxr) with ❤️
+## ✨ Features
+
+- Classic Rock, Paper, Scissors gameplay
+- Interactive UI built with HTML/CSS
+- Random computer moves using JavaScript
+- Score tracking system
+- Simple, beginner-friendly code
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/berserkxr/rock-paper-scissors.git
+cd rock-paper-scissors
+```
+
+### 2. Open the Game
+
+Just open `index.html` in your web browser:
+
+- Double-click the file, or  
+- Right-click and choose **"Open with browser"**
+
+---
+
+## 🧠 How It Works
+
+- The player clicks one of the buttons: Rock, Paper, or Scissors.
+- The computer randomly selects its move.
+- The game compares both choices and declares the winner.
+- Scores are updated and displayed after each round.
+
+---
+
+## 📁 Project Structure
 
 ```
+rock-paper-scissors/
+├── index.html      # Main HTML file
+├── style.css       # Styling
+└── script.js       # Game logic
+```
+
+---
+
+## 🛠️ Built With
+
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## 📚 Learning Goals
+
+This project was made to practice:
+
+- DOM manipulation
+- Event handling
+- Conditional logic in JavaScript
+- Basic UI design with CSS
+
+---
+
+## ✅ TODO (Optional Improvements)
+
+- Add sound effects 🎵  
+- Animate the buttons for a better UX  
+- Track total wins/losses over multiple sessions  
+- Add a dark mode ☁️  
+
+---
+
+## 📄 License
+
+This project is open-source and free to use under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Credits
+
+Created by [@berserkxr](https://github.com/berserkxr)
+
 
